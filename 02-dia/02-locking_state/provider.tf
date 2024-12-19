@@ -3,6 +3,7 @@ terraform {
     bucket = "descomplicando-terraform-corazza"
     key    = "aula_backend"
     region = "us-east-2"
+    dynamodb_table = "descomplicando-terraform-turma-2024"
   }
   required_providers {
     aws = {
